@@ -1,0 +1,71 @@
+/*Header*/
+.Tab .ajax__tab_header
+{
+    color: #4682b4;
+    font-family:Calibri;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #ffffff;
+    margin: 0px !important;
+    white-space:normal !important;
+}
+/*Body*/
+.Tab .ajax__tab_body
+{
+    border:1px solid #b4cbdf;
+    padding-top:0px;
+}
+/*Tab Active*/
+.Tab .ajax__tab_active .ajax__tab_tab
+{
+    color: #ffffff;
+    background:#c5122f;
+    height:14px;
+}
+.Tab .ajax__tab_active .ajax__tab_inner
+{
+    color: #ffffff;
+    background:#c5122f;
+}
+.Tab .ajax__tab_active .ajax__tab_outer
+{
+    color: #ffffff;
+    background:#c5122f;
+}
+/*Tab Hover*/
+.Tab .ajax__tab_hover .ajax__tab_tab
+{
+    color: #fff;
+    background:#c5122f;
+    height:14px;
+}
+.Tab .ajax__tab_hover .ajax__tab_inner
+{
+    color: #fff;
+    background:#c5122f;
+}
+.Tab .ajax__tab_hover .ajax__tab_outer
+{
+    color: #fff;
+    background:#c5122f;
+}
+/*Tab Inactive*/
+.Tab .ajax__tab_tab
+{
+    color: #666666;
+    background:#fff;
+    height:14px; 
+    margin-right: 0px !important;
+}
+.Tab .ajax__tab_inner
+{
+    color: #666666;
+    background:#fff;
+}
+.Tab .ajax__tab_outer {
+    color: #666666;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 7px 6px;
+    border-radius: 7px 7px 0 0;
+}
